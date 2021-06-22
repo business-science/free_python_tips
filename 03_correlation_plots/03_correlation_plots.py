@@ -7,7 +7,6 @@
 # LIBRARIES ----
 import numpy as np
 import pandas as pd
-from pandas.core.frame import DataFrame
 
 # DATASET ----
 mpg_df = pd.read_csv("https://raw.githubusercontent.com/mwaskom/seaborn-data/master/mpg.csv")
@@ -80,7 +79,7 @@ p9.ggplot(
 
 # LEARNING PANDAS & PLOTNINE ----
 # - Seaborn is great for making quick plots
-# - Pandas + Plotning for making professional report plots
+# - Pandas + Plotnine for making professional report plots
 
 # I TEACH PANDAS & PLOTNINE:
 #   Python for Data Science Automation Course (Contains 5 hours of Pandas)
