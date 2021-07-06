@@ -8,7 +8,6 @@
 
 import pandas as pd
 import numpy as np
-from sklearn import metrics
 
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import r2_score
@@ -30,7 +29,6 @@ X = mpg_df[['weight']]
 # Fitting ----
 
 model_lr = LinearRegression().fit(X, y)
-
 model_lr
 
 
