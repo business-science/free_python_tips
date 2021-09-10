@@ -10,9 +10,8 @@ import pandas as pd
 import glob
 
 # FILE PATHS WITH GLOB ----
-
-path = '06_read_csv_map/car_data/'
-all_files = glob.glob(path + "/*.csv")
+path = "06_read_many_csv/car_data/"
+all_files = glob.glob(path + "*.csv")
 
 all_files
 
@@ -26,7 +25,7 @@ for filename in all_files:
     df = pd.read_csv(filename, index_col=None, header=0)
     li.append(df)
 
-li
+li[1]
 
 df = pd.concat(li, axis=0, ignore_index=True)
 df
