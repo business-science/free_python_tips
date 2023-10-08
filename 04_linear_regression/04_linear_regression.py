@@ -2,7 +2,7 @@
 # TIP 004 | Linear Regression in Python with Scikit Learn ----
 #
 # 👉 For Weekly Python-Tips, Sign Up Here:
-#    https://mailchi.mp/business-science/python_tips_newsletter
+#    https://learn.business-science.io/python-tips-newsletter
 
 # LIBRARIES ----
 

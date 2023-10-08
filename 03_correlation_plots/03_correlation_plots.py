@@ -2,7 +2,7 @@
 # TIP 003 | Correlation Plots in Python ----
 #
 # 👉 For Weekly Python-Tips, Sign Up Here:
-#    https://mailchi.mp/business-science/python_tips_newsletter
+#    https://learn.business-science.io/python-tips-newsletter
 
 # LIBRARIES ----
 import numpy as np
